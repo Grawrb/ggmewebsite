@@ -14,10 +14,18 @@ h2, h3 {
     display: flex;
     justify-content: center;
 }
+
+#banner {
+    display: flex;
+    justify-content: start;
+    align-content: space-around;
+    align-items: center;   
+}
 /* Styling for logo img*/
 #ggme-logo {
     display:flex;
-    position: fixed;
+    position: static;
+
     
 }
 
@@ -30,6 +38,7 @@ h2, h3 {
 /* Styling for application demos */
 .myAppCon {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
