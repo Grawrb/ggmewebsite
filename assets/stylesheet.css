@@ -17,13 +17,18 @@ h2, h3, p, ul {
     justify-content: center;
 }
 
-#banner.ul {
+/* Styling for banner class */
+#banner {
+    display: flex;
+    flex-direction: row;
+}
+#banner ul {
     display: flex;
     flex-direction: column;
-    align-content: start;
-    align-items: start;
-    justify-items: start;   
+    justify-content: center;
+    font-size: x-large;  
 }
+
 /* Styling for logo img*/
 #ggme-logo {
     display:flex;
