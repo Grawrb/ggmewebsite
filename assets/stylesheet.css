@@ -1,6 +1,8 @@
 /* General body styling */
 body{
     background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    color: rgb(39, 33, 33);
+    font-weight: bold;
 }
 
 /* Styling for nav bar */
@@ -10,16 +12,17 @@ nav{
     margin-top: 0%;
 }
 /* Styling for section titles and app name cards */
-h2, h3 {
+h2, h3, p, ul {
     display: flex;
     justify-content: center;
 }
 
-#banner {
+#banner.ul {
     display: flex;
-    justify-content: start;
-    align-content: space-around;
-    align-items: center;   
+    flex-direction: column;
+    align-content: start;
+    align-items: start;
+    justify-items: start;   
 }
 /* Styling for logo img*/
 #ggme-logo {
@@ -33,6 +36,9 @@ h2, h3 {
 .aboutMeCon {
     display:flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /* Styling for application demos */
@@ -53,4 +59,23 @@ h2, h3 {
 footer {
     display: flex;
     justify-content: center;
+}
+
+/* Styling for page links */
+a:link {
+    color: rgb(39, 33, 33);
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(39, 33, 33);
+}
+
+a:hover {
+    color: rgb(218, 91, 91);
+}
+
+a:visited {
+    color: rgb(7, 0, 0);
+    font-weight: bolder;
 }
