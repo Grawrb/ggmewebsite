@@ -2,7 +2,7 @@
     This README will document my development of a website to be used as a landing page for my development portfolio
 
 ## Development Plans
-    I intend to develop this application from the ground up with concepts being learned through a Full Stack Coding Bootcamp. As more concepts are learned, more features and adjustments will be made. This README will will document all changes, additions, and deletions made to this ongoing project
+    I intend to develop this application from the ground up with concepts being learned through a Full Stack Coding Bootcamp. As more concepts are learned, more features and adjustments will be made. This README will document all changes, additions, and deletions made to this ongoing project
 
 ## Development Process
     -git repo established remotely 3/12/2024
